@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Home from "../../Pages/Home/Home";
 import Slider from "../../Components/Slider/Slider";
 import Menu from "../../Pages/Menu/Menu";
 import About from "../../Pages/About/About";
@@ -56,7 +55,7 @@ const MobileApp = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+    <div className="h-screen flex flex-col from-gray-950 via-gray-950 to-black text-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
       {/* Mobile app bar (title only) */}
       <header className="px-4 py-2 flex items-center justify-center bg-orange-900/98 backdrop-blur border-b border-gray-800 shadow-md">
         <h1 className="text-base font-semibold tracking-wide">{getTitle()}</h1>
